@@ -1,0 +1,110 @@
+{
+    "Resume": [
+      {
+        "id": 1,
+        "sectionName": "Education",
+        "description": "High School: Bellville Technical high.",
+        "Year":2018
+      },
+      {
+        "id": 2,
+        "sectionName": "Skills & Qualifications",
+        "description": "Your skills and qualifications details go here."
+      },
+ 
+      {
+        "id": 3,
+        "sectionName": "Work Experience",
+        "description": "Your work experience details go here."
+      },
+      
+      {
+        "id": 4,
+        "sectionName": "Curriculum Vitae",
+        "url": "URL to your CV"
+      },
+      {
+        "id": 5,
+        "sectionName": "Additional Work Experience",
+        "description": "Additional work experience details go here."
+      }
+    ],
+    "Projects": [
+      {
+        "id": 1,
+        "projectName": "Project 1",
+        "link": "URL to Project 1"
+      },
+      {
+        "id": 2,
+        "projectName": "Project 2",
+        "link": "URL to Project 2"
+      },
+      {
+        "id": 3,
+        "projectName": "Project 3",
+        "link": "URL to Project 3"
+      },
+      {
+        "id": 4,
+        "projectName": "Project 4",
+        "link": "URL to Project 4"
+      },
+      {
+        "id": 5,
+        "projectName": "Project 5",
+        "link": "URL to Project 5"
+      },
+      {
+        "id": 6,
+        "projectName": "Project 6",
+        "link": "URL to Project 6"
+      }
+    ],
+    "Testimonials": [
+      {
+        "id": 1,
+        "name": "Person 1",
+        "imgUrl": "URL to Person 1's image",
+        "description": "Testimonial from Person 1"
+      },
+      {
+        "id": 2,
+        "name": "Person 2",
+        "imgUrl": "URL to Person 2's image",
+        "description": "Testimonial from Person 2"
+      },
+      {
+        "id": 3,
+        "name": "Person 3",
+        "imgUrl": "URL to Person 3's image",
+        "description": "Testimonial from Person 3"
+      },
+      {
+        "id": 4,
+        "name": "Person 4",
+        "imgUrl": "URL to Person 4's image",
+        "description": "Testimonial from Person 4"
+      },
+      {
+        "id": 5,
+        "name": "Person 5",
+        "imgUrl": "URL to Person 5's image",
+        "description": "Testimonial from Person 5"
+      },
+      {
+        "id": 6,
+        "name": "Person 6",
+        "imgUrl": "URL to Person 6's image",
+        "description": "Testimonial from Person 6"
+      }
+    ],
+    "Contacts": [
+      {
+        "id": 1,
+        "contactName": "Your Name",
+        "description": "Your contact details go here."
+      }
+    ]
+  }
+  
