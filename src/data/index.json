@@ -62,49 +62,50 @@
       }
     ],
     "Testimonials": [
-      {
-        "id": 1,
-        "name": "Person 1",
-        "imgUrl": "URL to Person 1's image",
-        "description": "Testimonial from Person 1"
-      },
-      {
-        "id": 2,
-        "name": "Person 2",
-        "imgUrl": "URL to Person 2's image",
-        "description": "Testimonial from Person 2"
-      },
-      {
-        "id": 3,
-        "name": "Person 3",
-        "imgUrl": "URL to Person 3's image",
-        "description": "Testimonial from Person 3"
-      },
-      {
-        "id": 4,
-        "name": "Person 4",
-        "imgUrl": "URL to Person 4's image",
-        "description": "Testimonial from Person 4"
-      },
-      {
-        "id": 5,
-        "name": "Person 5",
-        "imgUrl": "URL to Person 5's image",
-        "description": "Testimonial from Person 5"
-      },
-      {
-        "id": 6,
-        "name": "Person 6",
-        "imgUrl": "URL to Person 6's image",
-        "description": "Testimonial from Person 6"
-      }
-    ],
-    "Contacts": [
-      {
-        "id": 1,
-        "contactName": "Your Name",
-        "description": "Your contact details go here."
-      }
-    ]
+        {
+            "id": 1,
+            "name": "Ntando",
+            "title": "Colleague",
+            "imgUrl":"https://i.postimg.cc/RV5dXtpZ/IMG-6929.jpg",
+            "description": "Thandeka is an exceptionally committed andbrilliant young woman. She not only comprehends her work quickly but consistently goes above and beyond in fulfilling her responsibilities. Her problem-solving skills are reminiscent of a genius, making her avaluable asset to any organization fortunate enough to have her."
+        },
+                {
+            "id": 2,
+            "name": "Asithandile",
+            "title": "Colleague",
+            "imgUrl":"https://i.postimg.cc/T2W57HBr/Copy.jpg",
+            "description": "Thandeka is unique combination of exceptional technical skills and outstanding people skills sets her apart in any professional setting. Her high level of emotional intelligence enables her to racefully handle criticism and continuously strive for improvement,making her a true asset to any team."
+        },   
+        {
+            "id": 3,
+            "name": "Onika",
+            "title": "Colleague",
+            "imgUrl":"https://i.postimg.cc/MTZNZFjH/onika-1.jpg",
+            "description": "Thandeka embodies the idea that true greatness often comes in humble packages, she approaches tasks with a creative mindset  and a keen eye for functionality. er dedication and talents as a web developer are evident,and I am confident that she will excel in any project she undertakes"
+        },
+        {
+            "id": 4,
+            "name": "Tyhiesha Johnson",
+            "subject": "Colleague",
+            "imgUrl":"https://i.postimg.cc/jdKSpLv6/Screenshot-2023-11-03-162001.png",
+            "description": "She has a good understanding of web development and would be a valuable addition to any team that is lucky enough to have her."
+        },  
+         {
+            "id": 5,
+            "name": "Zubaidah Isaacs",
+            "subject": "Colleague",
+            "imgUrl":"https://i.postimg.cc/N0jG5mmB/20231009-134246.jpg",
+            "description": "Thandeka is an intelligent and hard working young  lady . She is very committed towards her work . One thing I learnt from her is that nothing is ever impossible with hard work and commitment"
+        },
+        {
+            "id": 6,
+            "name": "Matthew Dean Brown",
+            "subject": "Colleague",
+            "imgUrl":"https://i.postimg.cc/1tCbGwdR/Matthew-1.png",
+            "description": "Thandeka's professional capabilities makes her  a joy to work with. Engaging and having meaningful gitconversations with her  makes every interaction a delightful experience."
+        }
+    
+        ]
+    
   }
   
