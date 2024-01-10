@@ -3,12 +3,16 @@
     <div class="row">
       <div class="col-md-6 offset-md-3 text-center">
         <div class="profile-image">
-          <img src="https://i.postimg.cc/9M4kVLXP/02-smiling-black-female-software-developer-holding-laptop-slidesbase-1.jpg" alt="BioPic">
+          <img src="https://drive.google.com/uc?export=download&id=1TsSX2QH_31nyrUuCEy0w_9u0dDlDa9nw" alt="BioPic">
         </div>
         <div class="bio">
           <h2>Thandeka Zanele Sineli</h2>
           <p>Aspiring Fullstack Developer</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis vehicula erat.</p>
+          <p>
+            I am a highly motivated and ambitious individual with a passion for learning and self-improvement. 
+            I have a strong work ethic and a positive attitude. I am always seeking new challenges
+            and opportunities to grow both personally and professionally.
+          </p>
         </div>
       </div>
     </div>
@@ -22,19 +26,19 @@ export default {
 </script>
 
 <style>
-/* Custom CSS for the About view */
+
 .profile-image {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  overflow: hidden;
+  overflow: hidden; 
   margin: 0 auto 20px;
 }
 
 .profile-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  object-fit: cover; 
 }
 
 .bio {

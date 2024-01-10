@@ -25,14 +25,14 @@ export default {};
 
 /* Global styles */
 body {
-  font-family: 'Arial', sans-serif; /* Change to desired font */
-  background-color: #f4f4f4; /* Update background color */
+  font-family: 'Arial', sans-serif; 
+  background-color: #f4f4f4; 
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Page-specific styles */
+
 .main-wrapper {
   flex: 1;
   display: flex;

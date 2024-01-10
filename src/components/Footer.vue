@@ -2,7 +2,7 @@
 
 <template>
   <footer>
-    <p>&copy; {{ currentYear }} Thandeka Sineli</p>
+    <p> Thandeka Sineli&copy; {{ currentYear }}</p>
   </footer>
 </template>
 
