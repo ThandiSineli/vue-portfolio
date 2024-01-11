@@ -1,111 +1,167 @@
 {
-    "Resume": [
+  "Education": [
       {
-        "id": 1,
-        "sectionName": "Education",
-        "description": "High School: Bellville Technical high.",
-        "Year":2018
+          "id": 1,
+          "name": "Life Choices Coding Academy",
+          "year": "2024",
+          "description": "Currently at Life Choices Full-Time"
       },
-      {
-        "id": 2,
-        "sectionName": "Skills & Qualifications",
-        "description": "Your skills and qualifications details go here."
-      },
- 
-      {
-        "id": 3,
-        "sectionName": "Work Experience",
-        "description": "Your work experience details go here."
+
+
+     {
+          "id": 2,
+          "name": "Cape Peninsula University of Technology",
+          "year": "2023",
+          "description": "Currently at CPUT Part-Time"
       },
       
       {
-        "id": 4,
-        "sectionName": "Curriculum Vitae",
-        "url": "URL to your CV"
-      },
-      {
-        "id": 5,
-        "sectionName": "Additional Work Experience",
-        "description": "Additional work experience details go here."
+          "id": 3,
+          "name": "Bellville Technical High ",
+          "year": "2018",
+          "description": "Completed Matric"
       }
-    ],
-    "Projects": [
+  ],
+  "Experience": [
       {
-        "id": 1,
-        "projectName": "Project 1",
-        "link": "URL to Project 1"
+          "id":1 ,
+          "name": "Exact( Kenilworth Centre)",
+          "year": "November 2022- April 2023",
+          "description": "Retail Assistant"
       },
       {
-        "id": 2,
-        "projectName": "Project 2",
-        "link": "URL to Project 2"
-      },
-      {
-        "id": 3,
-        "projectName": "Project 3",
-        "link": "URL to Project 3"
-      },
-      {
-        "id": 4,
-        "projectName": "Project 4",
-        "link": "URL to Project 4"
-      },
-      {
-        "id": 5,
-        "projectName": "Project 5",
-        "link": "URL to Project 5"
-      },
-      {
-        "id": 6,
-        "projectName": "Project 6",
-        "link": "URL to Project 6"
+          "id": 2,
+          "name": "TFG Parow Callcentre",
+          "year": "November 2019- February 2020",
+          "description": "One2One Customer Service Agent"
       }
-    ],
-    "Testimonials": [
-        {
-            "id": 1,
-            "name": "Ntando",
-            "title": "Colleague",
-            "imgUrl":"https://i.postimg.cc/RV5dXtpZ/IMG-6929.jpg",
-            "description": "Thandeka is an exceptionally committed andbrilliant young woman. She not only comprehends her work quickly but consistently goes above and beyond in fulfilling her responsibilities. Her problem-solving skills are reminiscent of a genius, making her avaluable asset to any organization fortunate enough to have her."
-        },
-                {
-            "id": 2,
-            "name": "Asithandile",
-            "title": "Colleague",
-            "imgUrl":"https://i.postimg.cc/T2W57HBr/Copy.jpg",
-            "description": "Thandeka is unique combination of exceptional technical skills and outstanding people skills sets her apart in any professional setting. Her high level of emotional intelligence enables her to racefully handle criticism and continuously strive for improvement,making her a true asset to any team."
-        },   
-        {
-            "id": 3,
-            "name": "Onika",
-            "title": "Colleague",
-            "imgUrl":"https://i.postimg.cc/MTZNZFjH/onika-1.jpg",
-            "description": "Thandeka embodies the idea that true greatness often comes in humble packages, she approaches tasks with a creative mindset  and a keen eye for functionality. er dedication and talents as a web developer are evident,and I am confident that she will excel in any project she undertakes"
-        },
-        {
-            "id": 4,
-            "name": "Tyhiesha Johnson",
-            "subject": "Colleague",
-            "imgUrl":"https://i.postimg.cc/jdKSpLv6/Screenshot-2023-11-03-162001.png",
-            "description": "She has a good understanding of web development and would be a valuable addition to any team that is lucky enough to have her."
-        },  
+  ],
+  "Skills": [
+      {
+          "id": 1,
+          "name": "HTML",
+          "imgUrl": "https://drive.google.com/uc?export=download&id=1SmQ7eUrisk-dNAlTIFNslVen_FS1xy_F",
+          "description": "Intermediate "
+      },
+      {
+          "id": 2,
+          "name": "CSS",
+          "imgUrl": "https://drive.google.com/uc?export=download&id=1vs2zssCbg9O0bxnbSJCs9nSRaW0KVRDM",
+          "description": "intermediate "
+      },
+      {
+          "id": 3,
+          "name": "Bootstrap",
+          "imgUrl": "https://drive.google.com/uc?export=download&id=1qqcX-hgTgGepAgSM2whoVtrxrlimymSX",
+          "description": "Intermediate"
+      },
+      {
+          "id": 4,
+          "name": "Javascript",
+          "imgUrl": "https://drive.google.com/uc?export=download&id=1KoDrfgvHIWUKvX7HPvBSbCNEASOuVNQt",
+          "description": " Beginner"
+      },
+      {
+          "id": 5,
+          "name": "Vuejs",
+          "imgUrl": "https://drive.google.com/uc?export=download&id=1Xj6v8tBQRQhIgwWEF58mKqPq6wJe5LC-",
+          "description": "Beginner"
+      }
+  ],
+
+"projects": [
+ {
+          "id": 1,
+          "name": "E-commerce Website(Cart)",
+          "imgUrl": "https://drive.google.com/uc?export=download&id=1wpz9sl2xwRhSyp42iBDwkA",
+          "github": "https://github.com/ThandiSineli/jsEOMP.git",
+          "netlify": "https://magical-speculoos-76e2f9.netlify.app/"
+      },
+      {
+          "id": 2,
+          "name": "Portfolio",
+          "imgUrl": "https://drive.google.com/uc?export=download&id=1aJ0Awj6uxe7dBleGX68OeX2eZLm2-SL8",
+          "github": "https://github.com/ThandiSineli/portfolioProject.git",
+          "netlify": "https://silly-llama-755164.netlify.app/"
+      },
+      {
+          "id": 3,
+          "name": "Calculator",
+          "imgUrl": "https://drive.google.com/uc?export=download&id=1wUfVMNFLBnDsCkkuKWRqbyEsI3yDRNX5",
+          "github": "https://github.com/ThandiSineli/Calculator.git",
+          "netlify": "https://symphonious-stroopwafel-77eea0.netlify.app/"
+      },
+      {
+          "id": 4,
+          "name": "TODO-List",
+          "imgUrl": "https://drive.google.com/uc?export=download&id=1I8FUAoBkRJXFhwS9CL-mKz",
+          "github": "https://github.com/ThandiSineli/toDoList.git",
+          "netlify": "https://graceful-cucurucho-db8273.netlify.app/"
+      },
+      {
+          "id": 5,
+          "name": "Cloned Netflix",
+          "imgUrl": "ttps://drive.google.com/uc?export=download&id=199Ta2IR4amzC2fHZiCFRuokNWdZBcDZ-",
+          "github": "https://github.com/ThandiSineli/netflixClone.git",
+          "netlify": "https://bejewelled-macaron-fcc30e.netlify.app/index2"
+      },
+      {
+          "id": 6,
+          "name": "E-commerce Website",
+          "imgUrl": "https://drive.google.com/uc?export=download&id=1FNk-GEMlChYDIOcYV6_tUQsCcFxDtifH",
+          "github": "https://github.com/ThandiSineli/e-commerceChallenge.git",
+          "netlify": "https://harmonious-moxie-066b12.netlify.app/"
+      }
+
+],
+"Testimonials":[
+       
          {
-            "id": 5,
-            "name": "Zubaidah Isaacs",
-            "subject": "Colleague",
-            "imgUrl":"https://i.postimg.cc/N0jG5mmB/20231009-134246.jpg",
-            "description": "Thandeka is an intelligent and hard working young  lady . She is very committed towards her work . One thing I learnt from her is that nothing is ever impossible with hard work and commitment"
-        },
-        {
-            "id": 6,
-            "name": "Matthew Dean Brown",
-            "subject": "Colleague",
-            "imgUrl":"https://i.postimg.cc/1tCbGwdR/Matthew-1.png",
-            "description": "Thandeka's professional capabilities makes her  a joy to work with. Engaging and having meaningful gitconversations with her  makes every interaction a delightful experience."
-        }
-    
-        ]
-    
-  }
+          "id": 1,
+          "name": "Ntando",
+          "title": "Colleague",
+          "imgUrl":"https://drive.google.com/uc?export=download&id=1a9TEtOZXcCfvFP2HjxgZLqPxO267N55Q",
+          "description": "Thandeka is an exceptionally committed andbrilliant young woman. She not only comprehends her work quickly but consistently goes above and beyond in fulfilling her responsibilities. Her problem-solving skills are reminiscent of a genius, making her avaluable asset to any organization fortunate enough to have her."
+      },
+              {
+          "id": 2,
+          "name": "Asithandile",
+          "title": "Colleague",
+          "imgUrl":"https://drive.google.com/uc?export=download&id=1GjttwrPaJYjcJJn5Ql6INbuwh",
+          "description": "Thandeka is unique combination of exceptional technical skills and outstanding people skills sets her apart in any professional setting. Her high level of emotional intelligence enables her to racefully handle criticism and continuously strive for improvement,making her a true asset to any team."
+      },   
+      {
+          "id": 3,
+          "name": "Onika",
+          "title": "Colleague",
+          "imgUrl":"ttps://drive.google.com/uc?export=download&id=1LH7zg0THhnILqOFCIYo_9EyyBUl-iSQ0",
+          "description": "Thandeka embodies the idea that true greatness often comes in humble packages, she approaches tasks with a creative mindset  and a keen eye for functionality. er dedication and talents as a web developer are evident,and I am confident that she will excel in any project she undertakes"
+      },
+      {
+          "id": 4,
+          "name": "Tyhiesha Johnson",
+          "title": "Colleague",
+          "imgUrl":"https://drive.google.com/uc?export=download&id=1rEAD-NN1r8Dx20GliT2qSNDYxiB-hiYG",
+          "description": "She has a good understanding of web development and would be a valuable addition to any team that is lucky enough to have her."
+      },  
+       {
+          "id": 5,
+          "name": "Zubaidah Isaacs",
+          "title": "Colleague",
+          "imgUrl":"https://drive.google.com/uc?export=download&id=1COytxd0QWboVbc7h_UkLOwjRvldc5Hwp",
+          "description": "Thandeka is an intelligent and hard working young  lady . She is very committed towards her work . One thing I learnt from her is that nothing is ever impossible with hard work and commitment"
+      },
+      {
+          "id": 6,
+          "name": "Matthew Dean Brown",
+          "title": "Lecture",
+          "imgUrl":"ttps://drive.google.com/uc?export=download&id=10PDDab6VMIALzl-oWOqpv_y86cVZVJeY",
+          "description": "Thandeka's professional capabilities makes her  a joy to work with. Engaging and having meaningful conversations with her  makes every interaction a delightful experience."
+      }
+  
+]
+
+
+}
+
   
