@@ -77,7 +77,7 @@ export default {
 }
 
 .github-icon {
-  width: 20px; /* Set the width and height of the image as needed */
+  width: 20px;
   height: 20px;
 }
 
