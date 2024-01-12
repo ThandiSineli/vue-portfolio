@@ -22,12 +22,30 @@
     </ul>
   </div>
 </template>
-
 <script>
 export default {
-  created() {
-    this.$store.dispatch('fetchResumeData');
-    
+  computed: {
+    education() {
+      return this.$store.state.education;
+    },
+    experience() {
+      return this.$store.state.experience;
+    },
+    skills() {
+      return this.$store.state.skills;
+    },
+  },
+  mounted() {
+    this.$store.dispatch("fetchEducation");
+    this.$store.dispatch("fetchExperience");
+    this.$store.dispatch("fetchSkills");
   },
 };
 </script>
+
+
+
+
+
+
+

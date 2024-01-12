@@ -1,5 +1,6 @@
 <template>
-  <div class="home">
+<body>
+   <div class="home">
     <div class="hero-section">
       <div class="content">
         <div class="greeting">
@@ -9,6 +10,7 @@
       </div>
     </div>
   </div>
+</body> 
 </template>
 
 <script>
@@ -16,22 +18,20 @@ export default {};
 </script>
 
 <style scoped>
-/* Resetting some default styles */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Global styles */
 body {
   font-family: 'Arial', sans-serif; 
-  background-color: #f4f4f4; 
+  background-color: #FFD166; 
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
 
 .main-wrapper {
   flex: 1;
@@ -39,30 +39,14 @@ body {
   flex-direction: column;
 }
 
-.navbar {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  /* Other navbar styles */
-}
-
-.navbar ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-.content {
-  flex: 1;
-  padding: 20px;
-}
 
 .section {
   margin-bottom: 40px;
 }
 
-h1, h2 {
+.greeting {
   text-align: center;
+  color: white;
 }
 
 h1.animated-greeting {
@@ -78,6 +62,9 @@ h1.animated-greeting {
     transform: scale(1.05);
   }
 }
-
-
 </style>
+
+
+
+
+

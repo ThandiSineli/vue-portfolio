@@ -1,49 +1,83 @@
 import { createStore } from 'vuex';
-import axios from 'axios';
+
+const dataUrl = "https://thandisineli.github.io/VueData/Data/";
 
 export default createStore({
   state: {
-    Education: [],
-    Experience: [],
-    Skills: [],
-    Projects: [],
-    Testimonials: [],
+    Testimonials: null,
+    skills: null,
+    experience: null,
+    education: null,
+    projects: null,
   },
   getters: {},
   mutations: {
-    setEducation(state, data) {
-      state.Education = data;
+    setTestimonials(state, Testimonials) {
+      state.Testimonials = Testimonials;
     },
-    setExperience(state, data) {
-      state.Experience = data;
+    setSkills(state, skills) {
+      state.skills = skills;
     },
-    setSkills(state, data) {
-      state.Skills = data;
+    setExperience(state, experience) {
+      state.experience = experience;
     },
-    setProjects(state, data) {
-      state.Projects = data;
+    setEducation(state, education) {
+      state.education = education;
     },
-    setTestimonials(state, data) {
-      state.Testimonials = data;
+    setprojects(state, projects) {
+      state.projects = projects;
     },
   },
   actions: {
-    fetchData({ commit }) {
-      axios.get('http://localhost:3000/data')
-        .then(response => {
-          const data = response.data;
-          console.log(response);
-          commit('setEducation', data.Education);
-          commit('setExperience', data.Experience);
-          commit('setSkills', data.Skills);
-          commit('setProjects', data.projects);
-          commit('setTestimonials', data.Testimonials);
-        })
-        .catch(error => {
-          console.error('Error fetching data:', error);
-        });
+    async fetchTestimonials(context) {
+      try {
+        let testimonialResponse = await fetch(dataUrl);
+        let { Testimonials } = await testimonialResponse.json();
+        context.commit('setTestimonials', Testimonials);
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    async fetchprojects(context) {
+      try {
+        let projectsResponse = await fetch(dataUrl);
+        let { projects } = await projectsResponse.json();
+        context.commit('setprojects', projects);
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    async fetchEducation(context) {
+      try {
+        let educationResponse = await fetch(dataUrl);
+        let { Education } = await educationResponse.json();
+        context.commit('setEducation', Education);
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    async fetchExperience(context) {
+      try {
+        let experienceResponse = await fetch(dataUrl);
+        let { Experience } = await experienceResponse.json();
+        context.commit('setExperience', Experience);
+      } catch (error) {
+        console.error(error);
+      }
+    },
+    async fetchSkills(context) {
+      try {
+        let skillsResponse = await fetch(dataUrl);
+        let { Skills } = await skillsResponse.json();
+        context.commit('setSkills', Skills);
+      } catch (error) {
+        console.error(error);
+      }
     },
   },
   modules: {},
 });
+
+
+
 
