@@ -1,9 +1,10 @@
-
-
 <template>
-  <footer>
+<div>
+ <footer>
     <p> Thandeka Sineli&copy; {{ currentYear }}</p>
   </footer>
+</div>
+ 
 </template>
 
 <script>
@@ -19,7 +20,8 @@ export default {
 <style scoped>
 
 footer {
-  background-color: #333;
+
+  background-color: #FF6B6B;
   color: white;
   text-align: center;
   padding: 10px;
@@ -27,6 +29,8 @@ footer {
   width: 100%;
   position: fixed;
 
-}
+  }
+
 
 </style>
+

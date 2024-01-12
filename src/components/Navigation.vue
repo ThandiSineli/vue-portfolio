@@ -1,4 +1,3 @@
-
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
@@ -15,15 +14,16 @@
 export default {
 
 };
-</script>
+</script scoped>
 
-<style scoped>
+<style>
 
 nav {
-  background-color: #333;
+  background-color: #FF6B6B;
   color: white;
   padding: 10px;
 }
+
 nav a {
   color: white;
   text-decoration: none;

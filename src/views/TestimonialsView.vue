@@ -11,11 +11,16 @@
   </template>
 
 <script>
-export default {
-  created() {
-    this.$store.dispatch('fetchTestData');
-  },
-};
+ export default {
+        computed: {
+          Testimonials() {
+            return this.$store.state.Testimonials;
+          },
+        },
+        mounted() {
+          this.$store.dispatch("fetchTestimonials");
+        },
+      };
 </script>
   
   <style>
