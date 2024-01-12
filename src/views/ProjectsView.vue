@@ -30,6 +30,9 @@ export default {
 </script>
 
 <style scoped>
+h1{
+  text-align: centerg;
+}
 .projects {
   display: flex;
   flex-wrap: wrap;
