@@ -37,7 +37,7 @@ body {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center; /* Center both headings */
+  justify-content: center; 
   text-align: center;
   color: white;
 }
@@ -53,9 +53,9 @@ h1.animated-greeting {
 }
 
 h2.animated-welcome {
-  font-size: 3rem; /* Larger font size */
+  font-size: 3rem; 
   opacity: 0;
-  animation: fadeIn 2s 1s forwards, typing 3s steps(40) 2s forwards; /* Multiple animations */
+  animation: fadeIn 2s 1s forwards, typing 3s steps(40) 2s forwards; 
 }
 
 .typewriter {
