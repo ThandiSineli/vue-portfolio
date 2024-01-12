@@ -1,16 +1,16 @@
 <template>
-<body>
-   <div class="home">
-    <div class="hero-section">
-      <div class="content">
-        <div class="greeting">
-          <h1 class="animated-greeting">Hello,</h1>
-          <h2>Welcome to my Portfolio</h2>
+  <body>
+    <div class="home">
+      <div class="hero-section">
+        <div class="content">
+          <div class="greeting">
+            <h1 class="animated-greeting">Hello,</h1>
+            <h2 class="animated-welcome">Welcome to my Portfolio!<span class="typewriter"></span></h2>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</body> 
+  </body>
 </template>
 
 <script>
@@ -18,7 +18,6 @@ export default {};
 </script>
 
 <style scoped>
-
 * {
   margin: 0;
   padding: 0;
@@ -26,22 +25,21 @@ export default {};
 }
 
 body {
-  font-family: 'Arial', sans-serif; 
-  background-color: #FFD166; 
+  font-family: 'Arial', sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-image: url('https://iili.io/JYJYE41.webp');
+  background-size: cover;
 }
 
-.main-wrapper {
+.hero-section {
   flex: 1;
   display: flex;
-  flex-direction: column;
-}
-
-
-.section {
-  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center; /* Center both headings */
+  text-align: center;
+  color: white;
 }
 
 .greeting {
@@ -54,6 +52,20 @@ h1.animated-greeting {
   animation: moveGreeting 4s infinite alternate;
 }
 
+h2.animated-welcome {
+  font-size: 3rem; /* Larger font size */
+  opacity: 0;
+  animation: fadeIn 2s 1s forwards, typing 3s steps(40) 2s forwards; /* Multiple animations */
+}
+
+.typewriter {
+  display: inline-block;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+}
+
 @keyframes moveGreeting {
   0% {
     transform: scale(1);
@@ -62,9 +74,19 @@ h1.animated-greeting {
     transform: scale(1.05);
   }
 }
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 </style>
-
-
-
-
-
