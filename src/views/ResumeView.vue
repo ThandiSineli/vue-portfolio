@@ -185,4 +185,22 @@ h2 {
 .card-link:hover {
   background-color: #f3deba;
 }
+
+
+
+/* For small devices (phones, 768px and below) */
+@media only screen and (max-width: 768px) {
+    /* CSS rules for small screens */
+}
+
+/* For medium devices (tablets, 768px - 992px) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* CSS rules for medium screens */
+}
+
+/* For large devices (desktops, 992px and above) */
+@media only screen and (min-width: 992px) {
+    /* CSS rules for large screens */
+}
+
 </style>
